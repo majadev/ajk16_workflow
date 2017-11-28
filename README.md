@@ -10,6 +10,7 @@ Node.js
 
 ## Installation
 ```sh
+clone project
 cd web
 npm install
 npm start
