@@ -5,7 +5,7 @@ Install
 
 ## Install
 ```sh
-$ cd web
-$ npm install
-$ npm start
+cd web
+npm install
+npm start
 ```
