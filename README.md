@@ -18,5 +18,5 @@ npm start
 ## Test
 
 ```sh
-Mocha test?
+Jest test?
 ```
