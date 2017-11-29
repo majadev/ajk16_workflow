@@ -20,7 +20,7 @@ npm start
 ```
 
 # Test
-
+> The tests are done with Jest, a testing framework maintained by Facebook.
 ```sh
 npm test
 ```
