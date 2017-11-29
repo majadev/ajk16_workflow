@@ -1,0 +1,43 @@
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+.img-list a {
+    display: block;
+    margin: auto;
+  }
+  
+  .img-wrap {
+    background-color: #fff;
+    margin-bottom: .8em;
+    position: relative;
+  }
+  
+  .img-wrap img {
+    min-width: 100%;
+  }
+
+  .inner,
+  .main-content {
+    width: 90%;
+    max-width: 1025px;
+    margin: auto;
+  }
+  
+  .main-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    min-height: 80px;
+    z-index: 1000;
+  }
+  
+  .main-content::after {
+    content: " ";
+    display: table;
+    clear: both;
+  }
