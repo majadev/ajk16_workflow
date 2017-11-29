@@ -1,21 +1,39 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import ImgList from './Components/ImgList';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
-    );
-  }
+
+export default class App extends Component {
+	constructor() {
+		super();
+		this.state = {
+			imgs: []
+		};
+	}
+
+	componentDidMount() {
+		fetch('https://pixabay.com/api/?key=4521698-0a0bb4f2bcb4188eb3a7646d7&q=yellow+flowers&image_type=photo&pretty=true')
+			.then(res => res.json())
+			.then(data => {
+				this.setState({ imgs: data.hits });
+			})
+			.catch(err => {
+				console.log('Error happened during fetching!', err);
+			});
+	}
+
+	render() {
+		return (
+			<div>
+				<div className="main-header">
+					<div className="inner">
+						<h1 className="main-title">Yellow Flowers</h1>
+					</div>
+				</div>
+				<div className="main-content">
+					<ImgList data={this.state.imgs} />
+				</div>
+			</div>
+		);
+	}
 }
-
-export default App;
