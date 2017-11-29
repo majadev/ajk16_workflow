@@ -22,7 +22,7 @@ npm start
 # Test
 
 ```sh
-Jest test?
+npm test
 ```
 
 # Optimize
