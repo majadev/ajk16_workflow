@@ -3,15 +3,6 @@
 
 In this course we will describe to you how an effective workflow looks like. We will show you step by step what we use for methods and why we chose a bunch of different techniques. The application we have built is a simple search engine for finding pictures via Pixabay.
 
-# Scaffolding
-> This project was scaffolded by React CLI [(create-react-app)](https://github.com/facebookincubator/create-react-app)
-
-
-## Software
-```sh
-Node.js
-```
-
 ## Installation
 ```sh
 clone project
@@ -20,16 +11,31 @@ npm install
 npm start
 ```
 
+# Scaffold
+> This project was scaffolded by React CLI [(create-react-app)](https://github.com/facebookincubator/create-react-app)
+
+# Develop
+
 # Test
 > The tests are done with Jest, a testing framework maintained by Facebook.
 ```sh
 npm test
 ```
 
-# Optimize
+# Integrate
 
+# Optimize
 ```sh
 Minify
+```
+
+#Deploy
+
+
+
+## Software
+```sh
+Node.js
 ```
 
 ## Webpack - module bundler
