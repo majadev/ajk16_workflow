@@ -56,7 +56,7 @@ render() {
 			</div>
 			<div className="main-content">
 				<ImgList data={this.state.imgs} />
-			</div>
+			</div>  
 		</div>
 	);
 }

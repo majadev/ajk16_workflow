@@ -1,47 +1,7 @@
-<<<<<<< HEAD
 
-.img-list a {
-    display: block;
-    margin: auto;
-  }
-  
-  .img-wrap {
-    background-color: #fff;
-    margin-bottom: .8em;
-    position: relative;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
-  
-  .img-wrap img {
-    min-width: 100%;
-  }
-
-  .inner,
-  .main-content {
-    width: 90%;
-    max-width: 1025px;
-    margin: auto;
-  }
-  
-  .main-header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background: #fff;
-    min-height: 80px;
-    z-index: 1000;
-  }
-=======
 body {
   background-image: url("img.jpg");
 }
-
-.main-title {
-}
-
 
 .main-content {
   margin-top: 100px;
@@ -86,4 +46,3 @@ form{
   cursor: pointer;
   background-color: #009CB7;
 }
->>>>>>> 30cec31611e113053afb9526d19d289941d8c28d
