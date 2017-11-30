@@ -15,9 +15,7 @@ npm start
 > This project was scaffolded by React CLI [(create-react-app)](https://github.com/facebookincubator/create-react-app)
 
 ## Develop
-```sh
-Development
-```
+> Fyll i om develop
 
 ## Test
 > The tests are done with Jest, a testing framework maintained by Facebook.
@@ -26,19 +24,13 @@ npm test
 ```
 
 ## Integrate
-```sh
-Integration
-```
+> Fyll i om integrering
 
 ## Optimize
-```sh
-Minify
-```
+> Fyll i om optimering
 
 ## Deploy
-```sh
-Deploy
-```
+> Fyll i om deploy
 
 
 ## Software
