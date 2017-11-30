@@ -49,3 +49,12 @@ form{
   cursor: pointer;
   background-color: #009CB7;
 }
+
+.git-btn {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  text-decoration: none;
+  color: limegreen;
+  margin-top: 20px;
+}

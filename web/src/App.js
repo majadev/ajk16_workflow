@@ -45,6 +45,7 @@ render() {
 	return (
 		<div>
 			<div className="main-header">
+				<a className="git-btn" href="https://majadev.github.io/ajk16_workflow/">Go to gitpage</a>
 				<div className="inner">
 				<form onSubmit={this.handleSubmit}>
 		      <label>
