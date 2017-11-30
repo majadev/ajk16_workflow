@@ -11,26 +11,34 @@ npm install
 npm start
 ```
 
-# Scaffold
+## Scaffold
 > This project was scaffolded by React CLI [(create-react-app)](https://github.com/facebookincubator/create-react-app)
 
-# Develop
+## Develop
+```sh
+Development
+```
 
-# Test
+## Test
 > The tests are done with Jest, a testing framework maintained by Facebook.
 ```sh
 npm test
 ```
 
-# Integrate
+## Integrate
+```sh
+Integration
+```
 
-# Optimize
+## Optimize
 ```sh
 Minify
 ```
 
-#Deploy
-
+## Deploy
+```sh
+Deploy
+```
 
 
 ## Software
