@@ -1,6 +1,7 @@
 # AJK16 Workflow
 
-> Lorem ipsum dolor sit amet, vel ne natum soluta putant. Saepe alienum in his, vis tempor reprehendunt et. Ne nec tritani fabulas. Nec adhuc postea contentiones ei, cu has utroque suavitate tincidunt. Natum adipiscing intellegam no ius.
+
+In this course we will show you how an effective workflow looks like. We will describe step by step what we use for methods and why we chose a bunch of different techniques. The application we have built is a simple search engine for finding pictures via Pixabay.
 
 # Scaffolding
 > This project was scaffolded by React CLI [(create-react-app)](https://github.com/facebookincubator/create-react-app)
